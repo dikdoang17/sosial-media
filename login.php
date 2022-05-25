@@ -41,7 +41,7 @@ if(isset($_POST['login'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login Pesbuk</title>
+    <title>Login Sosmed</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
@@ -53,7 +53,7 @@ if(isset($_POST['login'])){
 
         <p>&larr; <a href="index.php">Home</a>
 
-        <h4>Masuk ke Pesbuk</h4>
+        <h4>Masuk ke Sosmed</h4>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
 
         <form action="" method="POST">
