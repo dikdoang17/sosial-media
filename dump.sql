@@ -32,7 +32,7 @@ CREATE TABLE `users` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `photo` varchar(255) NOT NULL DEFAULT 'default.svg'
+  `photo` varchar(255) NOT NULL DEFAULT 'default.png'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -40,8 +40,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `name`, `photo`) VALUES
-(1, 'rahman', 'rahman@cilsy.id', '$2y$10$HIEq2w.8Et9RsJmY4TMKye4aVCxOd9xJTOtG4vyOEmo.GIBxaPQHK', 'Rahman Rizal', 'default.svg'),
-(3, 'rizal', 'rizal@cilsy.id', '$2y$10$uXa.Hz9rr8gkv4ztaqf6FO84iW64gXHbeyEOy1tIQ5wmqMjTk0yQa', 'Rizal Rahman', 'default.svg');
+(1, 'rahman', 'rahman@cilsy.id', '$2y$10$HIEq2w.8Et9RsJmY4TMKye4aVCxOd9xJTOtG4vyOEmo.GIBxaPQHK', 'Rahman Rizal', 'default.png'),
+(3, 'rizal', 'rizal@cilsy.id', '$2y$10$uXa.Hz9rr8gkv4ztaqf6FO84iW64gXHbeyEOy1tIQ5wmqMjTk0yQa', 'Rizal Rahman', 'default.png');
 
 --
 -- Indexes for dumped tables
